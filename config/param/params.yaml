@@ -1,0 +1,19 @@
+param_:
+  resolution: 6.0
+  choice_env: "readPcd" # "readPcd", "generatePcd"
+  readPcd:
+    staticGTFilename: "/home/yihuimao/test_ws/src/pomp_planning_in_static_env/map/cambridge_block_16.pcd"
+  generateCylinerPcd:
+    num_cylinders: 1000
+    points_per_circle: 1000
+    radius:
+      min: 0.8
+      max: 1.0
+    size:
+      x: 20.0
+      y: 20.0
+      z: 10.0
+    z_step: 0.01
+    
+ 
+  

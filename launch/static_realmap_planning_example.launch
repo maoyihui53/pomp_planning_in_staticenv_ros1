@@ -1,0 +1,11 @@
+<launch>  
+    <rosparam file="$(find pomp_planning_in_static_env)/config/param/params.yaml" command="load" />
+    <!-- <param name="Dimension" type="int" value="3"/> -->
+    <node pkg="pomp_planning_in_static_env" type="static_realmap_planning_example" name="static_realmap_planning_example" output="screen" />
+
+    <!-- <node name="rviz" pkg="rviz" type="rviz"
+    args="-d $(find pomp_planning_in_static_env)/rviz/display_static_realmap.rviz" /> 
+
+   -->
+
+</launch>
